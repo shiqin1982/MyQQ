@@ -306,17 +306,6 @@
             this.Name = "RegisterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "申请号码";
-            this.Load += new System.EventHandler(this.RegisterForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
-            this.grpBaseInfo.ResumeLayout(false);
-            this.grpBaseInfo.PerformLayout();
-            this.pnlSex.ResumeLayout(false);
-            this.pnlSex.PerformLayout();
-            this.grpDetails.ResumeLayout(false);
-            this.grpDetails.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
         }
 
         #endregion
